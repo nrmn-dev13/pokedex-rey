@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import api from '@/lib/api';
-import { Pokemon, PokemonListResponse } from '@/app/types/pokemon';
+import { Pokemon, PokemonListResponse } from '@/types/pokemon';
 
 export const usePokemonList = (limit: number = 20, offset: number = 0) => {
   return useQuery({
